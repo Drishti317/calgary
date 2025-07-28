@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
    <meta name="description" content="Explore the beauty of calgary.">
-   <meta name="Keywords" content="travel, clagary, Banff, city">
+   <meta name="keywords" content="travel, calgary, Banff, city">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
    <style>
@@ -121,6 +121,27 @@
         display: block;
         box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
     }
+    a {
+        text-decoration: none;
+        color: #0066cc;
+    }
+    a:visited {
+        color: #663399;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #004499;
+    }
+
+    a:active {
+        color: #002244;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
    </style>
     <title>Calgary</title>
 </head>
@@ -163,7 +184,7 @@
         <!--Video-->
         <section>
             <h2>Discover Calgary</h2>
-            <iframe src="https://www.youtube.com/embed/kISDpX8hL5II" title="Calgary travel video" frameborder="0" allowfullsecreen></iframe>
+            <iframe src="https://www.youtube.com/embed/kISDpX8hL5II" title="Calgary travel video" frameborder="0" allowfullscreen></iframe>
         </section>
        
     </main>
@@ -211,13 +232,13 @@
         <section>
             <h2>Get in Touch</h2>
             <from>
-                <label for="name" class="form-lable">Name:</lable>
+                <label for="name" class="form-label">Name:</lable>
                 <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required autofocus><br>
 
-                <label for="email" class="form-lable">Email:</lable>
+                <label for="email" class="form-label">Email:</lable>
                 <input type="email" id="email" name="email" class="form-control" placeholder="abc@gmail.com"><br>
 
-                <label for="reason" class="form-lable">Reason:</label>
+                <label for="reason" class="form-label">Reason:</label>
                 <select id="reason" name="reason" class="form-control">
                     <option value="info">More Info</select>option>
                     <option value="feedback">Feedback</option>
